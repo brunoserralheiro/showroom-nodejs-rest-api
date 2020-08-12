@@ -1,0 +1,22 @@
+{
+    "collections": [
+        {
+            "id": 1,
+            "name": "collection 1"
+        },
+        {
+            "id": 2,
+            "name": "collection 2"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "name": "item 1"
+        },
+        {
+            "id": 2,
+            "name": "item 2"
+        }
+    ]
+}
