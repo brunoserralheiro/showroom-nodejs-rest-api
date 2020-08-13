@@ -1,30 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const router = require('express').Router();
+
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  console.log('>>>>>>>>>>>>>>>>>>>>>>>>INDEX index.js <<<<<<<<<<<<<<<<<');
   res.render('index', { title: 'Express' });
 });
-router.get('/api/v2/collections', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-router.get('/api/v2/collection/:id', function(req, res, next) {
-  const id = req.params.id;
-  res.render('index', { title: id });
-});
-router.get('/api/v2/items', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-router.get('/api/v2/item/:id', function(req, res, next) {
-  const id = req.params.id;
-  res.render('index', { title: id });
-});
-router.post('/api/v2/item', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-router.post('/api/v2/collection', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+
+
 
 
 
