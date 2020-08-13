@@ -13,6 +13,8 @@ const users = require('./routes/users');
 var app = express();
 
 
+app.use(require('easy-livereload')());
+
 app.get('/', (req, res) => {
   res.json({item: 'Welcome ini separated page...'});
 })
